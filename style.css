@@ -1,0 +1,318 @@
+/* universal css */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.p-heading {
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 130px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1a1a;
+    padding: 0 60px;
+    padding-right: 150px;
+
+}
+
+.navbar .logo {
+    text-transform: uppercase;
+    color: rgb(249, 160, 51);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 20px;
+
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    padding: 12px 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #737272;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(239, 229, 158);
+
+}
+
+/* banner section */
+.bannar {
+    text-align: right;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    padding-right: 230px;
+}
+
+.bannar h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.bannar p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.btn {
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn:hover {
+    background-color: #e39678;
+
+}
+
+/* ------------failure section----------------- */
+.failure {
+    display: flex;
+    padding: 0 280px 0px 200px;
+    margin-bottom: 100px;
+}
+
+.f-photo img{
+    width: 569px;
+    height: auto;
+}
+
+.photo {
+    width: 100%;
+    height: 80%;
+}
+
+.fail-describtion{
+    margin-left: 100px;
+}
+
+.fail-describtion h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+    padding-top: 180px;
+}
+
+.fail-describtion p {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+/* -----------icon----------- */
+p i {
+    color: rgb(5, 246, 134);
+    font-weight: 400;
+    margin-right: 7px;
+}
+
+/* ---------course---------- */
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coures-col {
+    flex-basis: 31%;
+    background: rgba(252, 130, 82, 0.934);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.coures-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* -----------my plane section------- */
+.my-plans {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.my-plns-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+
+}
+
+.plns-item {
+    margin-right: 85px;
+}
+
+.plns-headeing {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plns-discribtion {
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #737272;
+}
+
+/* collnow section */
+.call {
+    background: url(images/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+
+}
+
+.call-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.pading {
+    padding: 60px 65px 10px;
+}
+.btn-last {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-last:hover {
+    background-color: #e39678;
+}
+
+/* -----------footer style------------- */
+.futuri-mail {
+    display: flex;
+    background: #151414;
+    padding: 130px 0;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.futuri-mail h3 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+
+}
+
+.futuri p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    
+}
+
+.futuri img {
+    margin-right: 10px;
+}
+
+.contact h5 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-right: 300px;
+    margin-bottom: 30px;
+
+}
+
+#email {
+    display: block;
+    width: 300px;
+    height: 40px;
+    background-color: #151414;
+    border: 1px solid #F8F8F8;
+    border-radius: 7px;
+    padding: 5px 25px;
+    margin-bottom: 16px;
+}
+
